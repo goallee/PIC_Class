@@ -1,9 +1,16 @@
 Steps to getting started writing for 8 bit PICs in Assembly.
 Install MPLABX from Microchip.com
+
 Do a "hello world" to verify everything works, blink an LED.
   LittleTest1.asm
+
 Move "hello world" to an interupt service routine with a timer.
   LittleTest2.asm
+
 Do more, add real time timers and drive a stepper motor.
   LittleTest3.asm
+
+It Moves… Stepper drive is working at 130in/min.
+  LittleTest4.asm
+  StepperLib.inc
   
